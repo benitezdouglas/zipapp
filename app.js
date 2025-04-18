@@ -14,7 +14,7 @@ var path = require('path');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var port = 3002;
+var port = 10000;
 var router = express.Router();
 let files = [];
 let file = {};
